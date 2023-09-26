@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <Title>Contato</Title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, inicial-scale=1"/>
+        <link rel="icon" type="image/png" href="imagens/contato.png">
+        <link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+    <body id="homemodelo">
+        <section class="sectionctt1">
+            <div id="header">
+                <ul id="nav">
+                    <li><a href="contato.html"><img src="imagens/br.webp" height="50" width="70"></a></li>
+                    <li><a href="contatoen.html"><img src="imagens/en.webp" height="50" width="70"></a></li>
+                    <li><a href="indexen.html">home</a></li>
+                    <li><a href="sobreen.html">about</a></li>
+                    <li><a href="modeloen.html">model</a></li>
+                    <li><a href="contatoen.html">contact</a></li>
+                </ul>
+            </header>
+            <table id="ctt">
+                <form name="tabelactt" action="#" method="GET">
+                    <tr>
+                        <td><font face="courier" size="3"><b>Name:</b></td>
+                        <td><input type="text" name="nome" required></td>
+                    </tr>
+                    <tr>
+                        <td><font face="courier" size="3"><b>Email:</b></td>
+                        <td><input type="text" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><font face="courier" size="3"><b>City:</b></td>
+                        <td>
+                            <select name="cid" >
+                                <option>Choose</option>
+                                <option>Campinas</option>
+                                <option>Hortolandia</option>
+                                <option>Sumaré</option>
+                                <option>Paulínia</option>
+                                <option>São Paulo</option>
+                                <option>Indaiatuba</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><font face="courier" size="3"><b>Leave your message here!:</b></td>
+                        <td><input type="textarea" name="" cols="10" rows="100" id="msg"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" onclick="return validar()" value="Enviar">
+                            <input type="reset" name="limpa" value="Limpar">
+                        </td>
+                    </tr>
+            </form>
+            </table>
+        </section>
+    </body>
+    <footer>
+        <p id="rodape">Non-Profit Academic Work<br>Breno Tanaka - &copy All Rights Reserved</font>
+    </footer>
+</html>
